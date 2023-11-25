@@ -53,6 +53,10 @@ public class Pessoa {
 				"Cidade: " + getCidade();
 	}
 	
+	public String PessoaException() {
+		throw new PessoaException("Gentileza retornar um CPF ou CNPJ válido");
+	}
+	
 	
 
 }
